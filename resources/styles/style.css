@@ -19,13 +19,13 @@ nav {
     background: rgba(49, 180, 167, 1);
 }
 
-ul {
+nav ul {
     list-style-type: none;
     padding:20px;
     float: right;
 }
 
-li {
+nav li {
     display: inline;
     margin-right: 10px;
     background: rgba(255, 240, 203, 1);
@@ -33,7 +33,7 @@ li {
     margin-top: 50px;
 }
 
-a {
+nav a {
     text-decoration: none;
     color: #333;
     padding: 5px 10px;
@@ -49,6 +49,7 @@ a {
 /*Home*/
 .home {
     display: flex;
+    align-items: center;
 }
 .home img {
     width: 100%;
@@ -59,13 +60,18 @@ a {
     position: absolute;
     font-size: 50px;
     padding: 4% 15%;
-    color: #035397;
+    color: white;
     font-weight: 800;
-    width: 100%;
+    font-family: 'Ubuntu', sans-serif;
+    margin:auto;
+}
+.home-btn{
+    text-align: center;
+
 }
 .home-btn button {
     font-size: 18px;
-    background: #1C427B;
+    background: #08857C;
     padding: 10px 30px;
     cursor: pointer;
     border-radius: 10px;
@@ -73,7 +79,97 @@ a {
 }
 
 .home-btn button a {
+    font-family: 'Chakra Petch', sans-serif;
     text-decoration: none;
     color: #fff;
+    font-weight: bold;
+}
+/*About us*/
+
+.about-us {
+    display: flex;
+    height: 55%;
+    justify-content: center;
+    align-items: center;
+}
+.about-us img {
+
+    padding: 40px;
+}
+.about-us-description {
+    width: 45%;
+    text-align: center;
+}
+.about-us-description h2 {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: 55px;
+    color: #08857C;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+/*PROFILES*/
+.RandR {
+    background: #FFF0CB;
+    padding: 20px;
+}
+.RandR-title {
+    font-family: 'Montserrat', sans-serif;
+    color: #08857C;
+    font-weight: bold;
+    font-size: 45px;
+    text-align: center;
+}
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.card {
+    background: #fff;
+    border-radius: 10px;
+    margin: 25px;
+    padding: 45px;
+}
+.card ul {
+    margin-left: 35px;
+    width: 240px;
+}
+.card li{
+    font-family: 'Inria Sans', sans-serif;
+}
+.card-header {
+    display: flex;
+    flex-direction: column;
+}
+.card-title {
+    font-family: 'Montserrat', sans-serif;
+    color: #08857C;
+    font-weight: bold;
+    font-size: 30px;
+    margin: 0 0 35px 0;
+}
+.card-subtitle {
+    font-family: 'Inria Sans', sans-serif;
+    color: #08857C;
+}
+.card-btn {
+    display: block;
+    text-align: center;
+    margin-top: 40px;
+}
+.card-btn button {
+    color: #08857C;
+    border-radius: 10px;
+    border: 2px solid #08857C;
+    padding: 10px 20px;
+    background: #fff;
+    cursor: pointer;
+}
+
+.card-btn button a {
+    font-family: 'Chakra Petch', sans-serif;
+    text-decoration: none;
+    color: #08857C;
     font-weight: bold;
 }
