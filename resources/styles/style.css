@@ -173,3 +173,86 @@ nav a {
     color: #08857C;
     font-weight: bold;
 }
+/*About the product*/
+.RandP {
+    background: #ffffff;
+    padding: 20px;
+}
+.RandP-title {
+    color: #08857C;
+    font-weight: bold;
+    font-size: 45px;
+    text-align: center;
+}
+.cardsP {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.cardP {
+    background: #FFF0CB;
+    border-radius: 10px;
+    margin: 25px;
+    padding: 45px;
+}
+.cardP ul {
+    margin-left: 35px;
+    width: 240px;
+}
+.cardP-header {
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+}
+.cardP-title {
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 30px;
+    margin: 0 0 35px 0;
+}
+.cardP-subtitle {
+    color: #ffffff;
+}
+.cardP-btn {
+    display: block;
+    text-align: center;
+    margin-top: 40px;
+}
+.cardP-btn a{
+    color: #08857C;
+    border-radius: 10px;
+    border: 2px solid #08857C;
+    padding: 10px 20px;
+    background: #fff;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+/*Footer*/
+.footer {
+    display: flex;
+    background: #1C427B;
+    flex-direction: row;
+    color: #fff;
+    justify-content: center;
+    padding: 30px;
+}
+.footer-part-about {
+    width: 300px;
+}
+.footer-part {
+    text-align: left;
+    margin: 0 65px;
+}
+.footer-part div a {
+    color: #fff;
+    display: block;
+    text-decoration: none;
+}
+.MapVet {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-size: 50px;
+    margin: 30px;
+}
