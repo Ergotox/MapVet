@@ -87,9 +87,35 @@ nav a {
     margin: 20px;
     align-items: center;
 }
+.infoVeterinaryContent{
+    display: flex;
+    align-items: center;
+    margin-right: auto;
+    margin-left: auto ;
+    justify-content: center;
+    text-align: center;
+}
+.infoVeterinaryContent data h2{
+    font-family: 'Montserrat', sans-serif;
+}
 .infoVeterinaryContent img{
     height: 400px;
     width: 400px;
-    margin-right: auto;
-    margin-left: auto ;
+    margin-right: 50px;
+
+}
+.infoVeterinaryContent data{
+
+}
+.button{
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 30px;
+    margin: 30px;
+    border: none;
+    padding: 4px;
+    border-radius: 30px;
+    background-color: #08857C;
+    cursor: pointer;
+    color:white;
+    width: 150px;
 }
