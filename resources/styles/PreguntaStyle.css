@@ -14,7 +14,9 @@ nav{
     background: #31B4A7;
     border: 3px solid #fff;
     height: 80px;
-    width: 100%;
+    margin: 0 80px;
+
+
 }
 nav ul{
     text-align-last: center;
@@ -33,4 +35,51 @@ nav ul li a{
 
 section.FAQ{
  background: #FFF0CB;
+ margin: 0 80px;
+ display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+}
+div.Preguntas {
+  display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   grid-gap: 50px;
+   max-width: 800px;
+}
+div.BoxACol1{
+  border: 1px #DDF3F6;
+  border-radius: 10px;
+  padding: 10px;
+  width: 400px;
+  height: 150px;
+  font-size: 15.5px;
+  background: #DDF3F6;
+}
+div.BoxBCol1{
+  border: 1px #DDF3F6;
+  border-radius: 10px;
+  padding: 10px;
+  width: 400px;
+  height: 150px;
+  font-size: 15.5px;
+  background: #DDF3F6;
+}
+div.BoxACol2{
+  border: 1px #DDF3F6;
+  border-radius: 10px;
+  padding: 10px;
+  width: 400px;
+  height: 150px;
+  font-size: 15.5px;
+  background: #DDF3F6;
+}
+div.BoxBCol2{
+  border: 1px #DDF3F6;
+  border-radius: 10px;
+  padding: 10px;
+  width: 400px;
+  height: 150px;
+  font-size: 15px;
+  background: #DDF3F6;
 }
