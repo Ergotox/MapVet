@@ -9,10 +9,12 @@
     width: 150vh;
 }
 div.FAQT {
+    font-family: 'Ubuntu', sans-serif;
     height: 100px;
     padding: 2%;
     text-align: center;
     font-size: 20px;
+
 }
 .logo {
     float: left;
@@ -38,8 +40,10 @@ nav{
 }
 nav ul{
     text-align-last: center;
+
 }
 nav ul li{
+    font-family: 'Montserrat', sans-serif;
     display: inline-block;
     line-height: 80px;
     margin: 0 80px;
@@ -57,6 +61,7 @@ width: 150vh;
 }
 
 section.FAQ{
+font-family: 'Inria Sans', sans-serif;
  background: #FFF0CB;
  margin: 0 80px;
  display: flex;
@@ -72,7 +77,7 @@ div.Preguntas {
    max-width: 800px;
    margin-left: -250px;
 }
-div.BoxACol1{
+div.BoxA{
   border: 1px #DDF3F6;
   border-radius: 10px;
   padding: 10px;
@@ -81,7 +86,7 @@ div.BoxACol1{
   font-size: 22px;
   background: #DDF3F6;
 }
-div.BoxBCol1{
+div.BoxB{
   border: 1px #DDF3F6;
   border-radius: 10px;
   padding: 10px;
@@ -90,16 +95,16 @@ div.BoxBCol1{
   font-size: 22px;
   background: #DDF3F6;
 }
-div.BoxACol2{
+div.BoxC{
   border: 1px #DDF3F6;
   border-radius: 10px;
   padding: 10px;
   width: 500px;
   height: 250px;
-  font-size: 22px;
+  font-size: 21.5px;
   background: #DDF3F6;
 }
-div.BoxBCol2{
+div.BoxD{
   border: 1px #DDF3F6;
   border-radius: 10px;
   padding: 10px;
