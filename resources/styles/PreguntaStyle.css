@@ -5,8 +5,14 @@
     box-sizing: border-box;
 }
 
+div.FAQT {
+      padding:20px;
+      text-align-last: center;
+}
+
 nav{
     background: #31B4A7;
+    border: 3px solid #fff;
     height: 80px;
     width: 100%;
 }
@@ -16,5 +22,15 @@ nav ul{
 nav ul li{
     display: inline-block;
     line-height: 80px;
-    margin: 0 200px;
+    margin: 0 80px;
+}
+nav ul li a{
+    color: black;
+    font-size: 30px;
+    padding: 7px 13px;
+    text-decoration: none;
+}
+
+section.FAQ{
+ background: #FFF0CB;
 }
